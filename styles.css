@@ -16,13 +16,13 @@ body{
 header {
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(248, 246, 246, 0.1);
 }
 header img{
     width: 100%;
 }
 nav {
-    background-color: #373684;
+    background-color: #3f3d9f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +44,11 @@ nav ul a {
     color: #333;
 }
 nav ul a:hover,nav ul .active {
-    background: black;
+    background: white;
+    transition: all 2s;
     padding: 5px 15px 5px;
-    color: white;
-    border-radius: 15px;
-    transition: all 1s;
+    color: #3f3d9f;
+    border-radius: 10px;
 }
 nav .logo{
     height: 130px;
@@ -59,9 +59,9 @@ main {
     padding: 2%;
     display: block;
     padding: 60px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(247, 244, 244, 0.1);
     text-align: center;
-    background-color: #e5e9fc;
+    background-color: #c2c6d8;
     overflow: auto;
     font-family: Verdana, Arial, sans-serif;
 }
@@ -85,7 +85,7 @@ footer {
     line-height: 25px;
 }
 footer a {
-    color: #4645a8;
+    color: rgb(69, 69, 134);
     text-decoration: none;
     margin: 0;
 }
