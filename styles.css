@@ -1,0 +1,91 @@
+/*
+ Author: Vedanshi Sadhu
+ Date: 18 June 2024
+ File Name: styles.css
+ */
+body, header, nav, main, footer, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header img{
+    width: 100%;
+}
+nav {
+    background-color: #373684;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 20px;
+    color:beige;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    font-size: 22px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul a:hover,nav ul .active {
+    background: black;
+    padding: 5px 15px 5px;
+    color: white;
+    border-radius: 15px;
+    transition: all 1s;
+}
+nav .logo{
+    height: 130px;
+    width: 200px;
+}
+
+main {
+    padding: 2%;
+    display: block;
+    padding: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
+}
+h1 {
+    color: #333;
+    margin: 0;
+}
+main img{
+    width: 35%;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    padding: 35px 0px;
+    background: black;
+    color: white;
+    line-height: 25px;
+}
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+    margin: 0;
+}
