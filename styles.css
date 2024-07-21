@@ -30,12 +30,9 @@ header {
     margin: 0 auto;
 }
 
-.logo img {
-    height: 50px;
-}
-
 .logo{
     height: 50px;
+    width: 50;
 }
 
 .nav-menu ul {
