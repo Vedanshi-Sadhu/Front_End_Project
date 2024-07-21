@@ -9,7 +9,7 @@ body, header, nav, main, footer, img {
     border: 0;
 }
 body{
-    background-color: beige;
+    background-color: #fff;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
@@ -22,12 +22,11 @@ header img{
     width: 100%;
 }
 nav {
-    background-color: #3f3d9f;
+    background-color: #008080;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px 20px;
-    color:#008080;
 }
 nav ul {
     list-style-type: none;
