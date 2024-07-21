@@ -44,7 +44,7 @@ nav ul a {
 }
 nav ul a:hover,nav ul .active {
     background: white;
-    transition: all 2s;
+    transition: all 0.5s;
     padding: 5px 15px 5px;
     color: #005757;
     border-radius: 10px;
