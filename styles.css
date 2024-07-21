@@ -7,67 +7,52 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Arial, sans-serif;
 }
 body{
     background-color: beige;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
-
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(248, 246, 246, 0.1);
 }
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo{
-    height: 50px;
-    width: 50;
-}
-
-.nav-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.nav-menu ul li {
-    margin-left: 20px;
-}
-
-.nav-menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-menu ul li a:hover {
-    background-color: #575757;
-    color: #ffcc00;
-}
-
 header img{
     width: 100%;
 }
-
+nav {
+    background-color: #3f3d9f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 20px;
+    color:beige;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    font-size: 22px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul a {
+    text-decoration: none;
+    color: #333;
+}
 nav ul a:hover,nav ul .active {
     background: white;
     transition: all 2s;
     padding: 5px 15px 5px;
     color: #3f3d9f;
     border-radius: 10px;
+}
+nav .logo{
+    height: 130px;
+    width: 200px;
 }
 
 main {
