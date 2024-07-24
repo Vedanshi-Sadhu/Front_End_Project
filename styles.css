@@ -3,13 +3,6 @@
  Date: 22 June 2024
  File Name: styles.css
  */
-
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    overflow: hidden;
-}
-
 body, header, nav, main, footer, img {
     margin: 0;
     padding: 0;
