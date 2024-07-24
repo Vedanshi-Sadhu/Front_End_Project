@@ -3,6 +3,13 @@
  Date: 22 June 2024
  File Name: styles.css
  */
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow: hidden;
+}
+
 body, header, nav, main, footer, img {
     margin: 0;
     padding: 0;
@@ -13,11 +20,49 @@ body{
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: #008080;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1)
+}
+
+header .logo{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: #000;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+header .navbar a:hover,nav .active {
+        color: rgb(109, 188, 231);
+}
+
+
+/*
 header {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(248, 246, 246, 0.1);
     height: 50px;
+    position: fixed;
+
 }
 header img{
     width: 100%;
@@ -28,6 +73,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px 20px;
+    position: fixed;
 }
 nav ul {
     list-style-type: none;
@@ -54,6 +100,7 @@ nav .logo{
     height: 130px;
     width: 200px;
 }
+    */
 
 main {
     padding: 2%;
