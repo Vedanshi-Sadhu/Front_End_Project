@@ -80,7 +80,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -154,7 +154,7 @@ form input:focus, form textarea:focus, form select:focus {
 form button {
     padding: 10px 15px;
     background-color: #343a40;
-    color: #fff;
+    color: #acf7e5;
     border: none;
     border-radius: 5px;
     cursor: pointer;
