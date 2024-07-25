@@ -23,7 +23,7 @@ header .logo{
 header .logo span{
     color: #000;
 }
-*/
+
 
 header {
     border-radius: 10px;
@@ -36,7 +36,7 @@ header img{
     max-height: 200px;
     object-fit: cover;
 }
-
+*/
 nav {
     background-color: #008080;
     display: flex;
