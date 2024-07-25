@@ -3,7 +3,7 @@
  Date: 22 June 2024
  File Name: styles.css
  */
-body, footer{
+body{
     margin: 0;
     padding: 0;
     border: 0;
@@ -73,20 +73,6 @@ nav .logo{
 
 main {
     padding: 20px;
-}
-
-footer {
-    background-color: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    color: #ffc107;
 }
 
 /* Grid Layout */
@@ -245,3 +231,19 @@ footer a {
     margin: 0;
 }
 */
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 35px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 25px;
+}
+
+footer a {
+    color: #ffc107;
+    margin: 0;
+}
