@@ -115,11 +115,11 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #343a40;
+    border: 2px solid #008080;
 }
 
 form label {
@@ -134,13 +134,13 @@ form input, form textarea, form select {
 }
 
 form input:focus, form textarea:focus, form select:focus {
-    border-color: #343a40;
+    border-color: hsl(180, 96%, 19%);
 }
 
 form button {
     padding: 10px 15px;
-    background-color: #343a40;
-    color: #acf7e5;
+    background-color: #008080;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -148,8 +148,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #495057;
+    background-color: #008080;
     transform: scale(1.05);
+}
+
+.social-media{
+    text-align: center;
 }
 /* Table Styles */
 table {
