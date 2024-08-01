@@ -13,17 +13,6 @@ body{
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
-/*
-header .logo{
-    font-size: 3rem;
-    color: #fff;
-    font-weight: bolder;
-}
-
-header .logo span{
-    color: #000;
-}
-
 
 header {
     border-radius: 10px;
@@ -66,9 +55,21 @@ nav ul a:hover,nav ul .active {
     color: #005757;
     border-radius: 10px;
 }
+/*
 nav .logo{
     height: 130px;
     width: 200px;
+}
+    */
+
+nav .logop{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+nav .logop span{
+    color: #000;
 }
 
 main {
