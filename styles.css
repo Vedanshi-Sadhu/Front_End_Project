@@ -86,6 +86,12 @@ main {
     flex-wrap: wrap;
   }
   
+  .about-wrapper container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  
+  }
   #about h2 {
     font-size: 2.3rem;
   }
@@ -135,9 +141,7 @@ main {
     margin: auto;
     object-fit: cover;
     object-position: right;
-  }
-  
-  
+  } 
 
 /* Grid Layout */
 .grid-container {
