@@ -55,13 +55,12 @@ nav ul a:hover,nav ul .active {
     color: #005757;
     border-radius: 10px;
 }
-/*
+
 nav .logo{
     height: 130px;
     width: 200px;
 }
-    */
-
+/*
 nav .logop{
     font-size: 3rem;
     color: #fff;
@@ -71,11 +70,22 @@ nav .logop{
 nav .logop span{
     color: #000;
 }
-
+*/
 main {
     padding: 20px;
 }
 
+.flex-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 /* Grid Layout */
 .grid-container {
     display: grid;
