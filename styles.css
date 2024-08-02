@@ -147,16 +147,15 @@ main {
 
 /* Grid Layout */
 
-.team h1{
+.team-h1{
  color: #008080;
  text-align: center;
- font-size: medium;
+ font-size: 2.3rem;
 }
 
-.grid-item figcaption{
-    font-size: 0.8rem;
+.grid-container figcaption{
+    font-size: 1.7rem;
     color: #008080;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .grid-container {
