@@ -144,7 +144,21 @@ main {
     object-position: right;
   } 
 
+
 /* Grid Layout */
+
+.team h1{
+ color: #008080;
+ text-align: center;
+ font-size: medium;
+}
+
+.grid-item figcaption{
+    font-size: 0.8rem;
+    color: #008080;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
