@@ -192,6 +192,84 @@ main {
     color: #fff;
 }
 
+/*FAQs page*/
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.faq-image {
+    flex: 1;
+    max-width: 20%;
+}
+
+.faq-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-content {
+    flex: 3;
+    max-width: 60%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.faq-content h1 {
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-list li {
+    margin: 10px 0;
+}
+
+.faq-list a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.faq-list a::before, .faq-list a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #0066cc;
+    transition: width 0.3s ease;
+}
+
+.faq-list a::before {
+    left: 0;
+    bottom: 0;
+}
+
+.faq-list a::after {
+    right: 0;
+    bottom: 0;
+}
+
+.faq-list a:hover {
+    color: #ff6600;
+}
+
+.faq-list a:hover::before, .faq-list a:hover::after {
+    width: 50%;
+}
+
+
 /* Form Styles */
 form {
     display: flex;
