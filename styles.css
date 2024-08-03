@@ -30,7 +30,7 @@ body{
     width: 200px;
 }
 
-.logo p{
+.logo a{
     font-size: 3rem;
     color: #fff;
     font-weight: bolder;
