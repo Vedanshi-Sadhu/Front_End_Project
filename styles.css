@@ -27,14 +27,14 @@ body{
 
 /* Logo */
 .logo {
-    width: 80px; /* Default width for desktop 10 vw*/
+    width: 10vw; /* Default width for desktop 10 vw*/
     height: auto; /* Maintain aspect ratio */
     flex: 0 1 auto;
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 20px; /* Adjusted width for mobile */
+        width: 10vw; /* Adjusted width for mobile */
     }
 }
 
