@@ -26,8 +26,8 @@ body{
 }
 
 /* Logo */
-.logo {
-    width: 10vw; /* Default width for desktop 10 vw*/
+.logo img{
+    width: 20px; /* Default width for desktop 10 vw*/
     height: auto; /* Maintain aspect ratio */
     flex: 0 1 auto;
 }
