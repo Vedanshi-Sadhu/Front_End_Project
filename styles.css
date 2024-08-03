@@ -27,13 +27,14 @@ body{
 
 /* Logo */
 .logo {
-    width: 120px; /* Default width for desktop */
+    width: 80px; /* Default width for desktop 10 vw*/
     height: auto; /* Maintain aspect ratio */
+    flex: 0 1 auto;
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 100px; /* Adjusted width for mobile */
+        width: 20px; /* Adjusted width for mobile */
     }
 }
 
@@ -98,6 +99,7 @@ body{
     .nav-menu {
         display: none;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .hamburger {
