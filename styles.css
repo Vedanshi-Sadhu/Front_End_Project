@@ -230,9 +230,10 @@ nav .logop span{
 }
 
 .home img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+} transition: transform 0.3s ease;
 }
 
 .home-content {
@@ -303,11 +304,12 @@ nav .logop span{
 }
 
 .recipe img {
-    width: 150px;
-    height: auto;
     margin-right: 20px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .recipe-content {
