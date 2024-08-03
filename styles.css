@@ -831,7 +831,6 @@ footer a {
     text-decoration: none;
     margin: 0;
 }
-*/
 
 footer {
     background-color: #343a40;
@@ -844,4 +843,57 @@ footer {
 footer a {
     color: #ffc107;
     margin: 0;
+}
+*/
+.footer {
+    background-color: #008080;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-left p, .footer-center p {
+    margin: 5px 0;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #004d40;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        margin: 10px 0;
+    }
 }
