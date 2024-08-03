@@ -27,8 +27,14 @@ body{
 
 /* Logo */
 .logo {
-    height: 10%; /* Adjust based on your logo size */
-    width: 10%;
+    width: 120px; /* Default width for desktop */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Adjusted width for mobile */
+    }
 }
 
 /* Nav Menu */
