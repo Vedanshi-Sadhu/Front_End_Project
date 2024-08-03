@@ -28,15 +28,13 @@ body{
 .logo{
     height: 130px;
     width: 200px;
-}
-
-.logo a{
-    font-size: 5rem;
+    font-size: 3rem;
     color: #fff;
     font-weight: bolder;
+
 }
 
-.logo p span{
+.logo span{
     color: #000;
 }
 
