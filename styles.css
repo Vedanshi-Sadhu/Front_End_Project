@@ -25,22 +25,19 @@ body{
     position: relative;
 }
 
-.logo{
-    height: 130px;
-    width: 200px;
-    font-size: 3rem;
-    color: #fff;
-    font-weight: bolder;
-
+.logo {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Funky font style */
+    font-size: 2rem;
+    color: white;
 }
 
-.logo span{
-    color: #000;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .logo {
-        width: 10vw; /* Adjusted width for mobile */
+        font-size: 1.5rem;
+    }
+
+    .nav-items a {
+        font-size: 0.9rem;
     }
 }
 
