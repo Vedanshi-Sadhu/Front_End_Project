@@ -21,7 +21,6 @@ body{
     align-items: center;
     background-color: #008080; /* Teal */
     padding: 10px 20px;
-    position: relative;
 }
 
 .logo {
@@ -68,7 +67,7 @@ body{
     display: none;
 }
 
-.nav-toggle:checked ~ .nav-menu {
+.nav-toggle:checked + .hamburger + .nav-menu {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -94,7 +93,6 @@ body{
         display: block;
     }
 }
-
 /*
 header {
     border-radius: 10px;
