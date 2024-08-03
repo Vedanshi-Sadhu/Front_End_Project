@@ -241,7 +241,7 @@ nav .logop span{
     width: 300px;
     height: 300px;
     object-fit: cover;
-} transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .home-content {
