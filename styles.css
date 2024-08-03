@@ -27,8 +27,8 @@ body{
 
 /* Logo */
 .logo {
-    height: 40px; /* Adjust based on your logo size */
-    width: auto;
+    height: 10%; /* Adjust based on your logo size */
+    width: 10%;
 }
 
 /* Nav Menu */
@@ -167,6 +167,182 @@ nav .logop span{
     color: #000;
 }
 */
+
+
+.header-home {
+    background-color: #008080; /* Teal */
+    color: white;
+}
+
+.intropara {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #004d40, #008080);
+    color: white;
+    animation: fadeIn 2s ease-out;
+}
+
+.intropara h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intropara p {
+    font-size: 18px;
+}
+
+/* Featured Section */
+.featured {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.featured h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #004d40;
+}
+
+.home-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.home-content {
+    padding: 15px;
+}
+
+.home h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.home:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.home img:hover {
+    transform: scale(1.05);
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #004d40;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.benefits ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.benefits ul li:hover {
+    color: #008080;
+}
+
+/* Recipes Section */
+.recipes {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.recipes h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #004d40;
+}
+
+.recipe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.recipe-content {
+    max-width: 600px;
+}
+
+.recipe h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.recipe img:hover {
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+    }
+
+    .recipe {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recipe img {
+        margin: 0 0 10px 0;
+        max-width: 100%;
+    }
+}
+
 main {
     padding: 20px;
 }
