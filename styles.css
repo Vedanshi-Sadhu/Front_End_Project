@@ -25,11 +25,19 @@ body{
     position: relative;
 }
 
-/* Logo */
-.logo img{
-    width: 20px; /* Default width for desktop 10 vw*/
-    height: auto; /* Maintain aspect ratio */
-    flex: 0 1 auto;
+.logo{
+    height: 130px;
+    width: 200px;
+}
+
+.logo p{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.logo p span{
+    color: #000;
 }
 
 @media (max-width: 768px) {
