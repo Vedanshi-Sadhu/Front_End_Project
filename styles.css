@@ -15,25 +15,28 @@ body{
 }
 
 /* Navbar Styling */
+/* Navbar Container */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #008080; /* Teal */
     padding: 10px 20px;
+    position: relative;
 }
 
+/* Logo */
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+    height: 40px; /* Adjust based on your logo size */
+    width: auto;
 }
 
+/* Nav Menu */
 .nav-menu {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin: 0;
 }
 
 .nav-menu li {
@@ -45,13 +48,13 @@ body{
     color: white;
     font-size: 16px;
     padding: 8px 12px;
-    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-menu li a:hover {
     background-color: white;
     color: #008080;
-    border-radius: 4px;
 }
 
 /* Hamburger Icon */
@@ -76,11 +79,24 @@ body{
     background-color: #008080;
     width: 200px;
     border-radius: 5px;
+    padding: 10px;
 }
 
-.nav-menu li {
+.nav-toggle:checked + .hamburger + .nav-menu li {
     text-align: center;
     margin: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
 
 /* Media Queries */
