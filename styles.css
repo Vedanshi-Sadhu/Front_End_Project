@@ -861,7 +861,7 @@ footer a {
     padding: 0 20px;
 }
 
-.footer-left, .footer-center, .footer-right {
+.footer-left, .footer-center{
     flex: 1;
     margin: 10px;
 }
@@ -870,21 +870,10 @@ footer a {
     margin: 5px 0;
 }
 
-.social-icon {
-    color: white;
-    margin: 0 10px;
-    font-size: 20px;
-    transition: transform 0.3s;
-}
-
-.social-icon:hover {
-    transform: scale(1.2);
-}
-
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #004d40;
+    background-color: #027b7b;
 }
 
 @media (max-width: 768px) {
